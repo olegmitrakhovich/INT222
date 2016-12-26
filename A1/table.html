@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>assignment 1 - table.html</title>
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/normalize.css"  type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="https://zenit.senecac.on.ca/~emile.ohan/int222/assignments/assignment-01/master.css" type="text/css" media="screen" /> 
+    <link rel="stylesheet" href="css/mycss.css" type="text/css" media="screen" /> 
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="../">Main Home</a></li>
+        <li><a href="index.html">Assignment 1 Home</a></li>
+        <li><a href="profile.html">Profile</a></li>
+        <li><a href="list.html">Lists with CSS</a></li>
+        <li><a href="text.html">Text with CSS</a></li>
+        <li><a href="table.html">Tables with CSS</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="honesty.html">Honesty</a></li>
+        <li><a href="css/mycss.css">CSS Used</a></li>
+      </ul>
+    </nav>
+    <div id="content">
+      <div id="mcontent">
+        <header>
+          <p id="pageHeader">Tables With CSS</p>
+        </header>
+        <!-- Your code goes here -->
+	
+	<table class="table1">
+	<caption>Horizontal and Vertical Alignment</caption>
+	<tr>
+		<th colspan="5">Cell Alignment With CSS</th>
+	</tr>
+	<tr>
+		    <th rowspan="4">Examples</th>    		
+                    <th>Row</th>
+                    <th>Cell - 1</th>
+		    <th>Cell - 2</th>
+		    <th>Cell - 3</th>	
+       </tr>
+                <tr>
+                    <th>3</th>
+                    <td class="topleft">CSS</td>
+		    <td class="middleleft">CSS</td>
+		    <td class="bottomleft">CSS</td>	
+                </tr>
+		<tr>
+                    <th>4</th>
+                    <td class="topcenter">CSS</td>
+		    <td class="middlecenter">CSS</td>
+		    <td class="bottomcenter">CSS</td>	
+                </tr>
+		<tr>
+		    <th>5</th>
+		    <td class="topright">CSS</td>
+		    <td class="middleright">CSS</td>
+		    <td class="bottomright">CSS</td>
+		</tr>				
+	</table>
+	<hr>
+	
+
+
+
+	<table class="table1">
+	<caption>Horizontal and Vertical Alignment</caption>
+	<tr>
+	<th colspan="2">Cell Alignment with CSS</th>
+	<tr>
+	<th rowspan="1">Examples</th>
+	<td>
+							<table class="table2">
+        						<caption class="bottom">Nested Table</caption>
+							<tr>
+                    					<th>Row</th>
+                    					<th>Cell - 1</th>
+                    					<th>Cell - 2</th>
+                    					<th>Cell - 3</th>
+       							</tr>
+                					<tr>
+                    					<th>3</th>
+                    					<td class="topleft">CSS</td>
+                    					<td class="middleleft">CSS</td>
+                    					<td class="bottomleft">CSS</td>
+                					</tr>
+                					<tr>
+                    					<th>4</th>
+                    					<td class="topcenter">CSS</td>
+                    					<td class="middlecenter">CSS</td>
+                    					<td class="bottomcenter">CSS</td>
+                					</tr>
+                					<tr>
+                    					<th>5</th>
+                    					<td class="topright">CSS</td>
+                    					<td class="middleright">CSS</td>
+                    					<td class="bottomright">CSS</td>
+                					</tr>
+							</table>
+</td>
+</tr>
+</table>
+        <!-- Your code ends here -->
+      </div>
+    </div>
+    <!-- Defining Footer -->
+    <footer>
+        <script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+    </footer>
+  </body>
+</html>

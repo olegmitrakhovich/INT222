@@ -1,0 +1,187 @@
+/* *********************************************************
+   These are the styles common to all Assignment #1 pages
+   ********************************************************* */
+
+
+/* *********************************************************
+   These are the styles used in the Assignment #1 Home page
+   ********************************************************* */ 
+
+
+
+/* *********************************************************
+   These are the styles used in the Profile page
+   ********************************************************* */
+
+	p.type1{
+		text-indent: 50px;
+	}
+
+
+/* *********************************************************
+   These are the styles used in the Lists  page
+   ********************************************************* */
+	ol.a {
+		list-style-type: lower-roman;
+	}
+	
+	ul.b {
+		list-style-type: square;
+	}
+	
+	ol.c {
+		list-style-type: lower-alpha;
+	}
+
+
+/* *********************************************************
+   These are the styles used in the Text  page
+   ********************************************************* */
+	p.type2{
+		letter-spacing: 3px;
+	}
+	
+	p.type3{
+		text-decoration: underline;
+	}
+
+	p.type4{
+		word-spacing: 30px;
+	}
+	
+	p.type5{
+		text-indent: 40px;
+	}
+
+	p.type6{
+		background-color: #000080;
+		color: #ffffff;
+	}
+
+	p.type7{
+		font-family: "Times New Roman", Times, serif;
+		font-size: 14px;
+		font-weight: bold;
+	}
+
+	.type8{
+		font-style: italic;
+	}
+
+	p#type9{
+		text-decoration: underline;	
+	}
+	
+	p.type10{
+		text-transform: uppercase;
+	}
+
+	.type11{
+		list-style-type: none;
+	}
+
+
+
+/* *********************************************************
+   These are the styles used in the Table  page
+   ********************************************************* */
+table.table1 {
+	border-width: 4px;
+	border-spacing: 10px;
+	border-style: outset;
+	border-color: black;
+	border-collapse: separate;
+	background-color: white;
+	width:  500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ th {
+	border-width: 2px;
+	padding: 1px;
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+}
+ td {
+	border-width: 2px;
+	padding: 1px;
+	border-style: inset;
+	border-color: black;
+	background-color: white;
+	height: 60px;
+}
+
+table.table2 {
+        border-width: 8px;
+        border-spacing: 10px;
+        border-style: outset;
+        border-color: black;
+        border-collapse: separate;
+        background-color: white;
+        width:  300px;
+	margin-top: 5px;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+	caption.bottom{
+		caption-side: bottom;
+	}
+
+
+	.topleft{
+		text-align: left;
+    		vertical-align: top;
+	}
+	
+	.topcenter{
+		text-align: center;
+		vertical-align: top;
+	}
+	
+	.topright{
+		text-align: right;
+		vertical-align: top;
+	}
+
+	.middleleft{
+		text-align: left;
+		vertical-align: middle;
+	}
+
+	.middlecenter{
+		text-align:center;
+		vertical-align:middle;
+	}
+
+	.middleright{
+		text-align:right;
+		vertical-align:middle;
+	}
+
+	.bottomleft{
+		text-align: left;
+		vertical-align: bottom;
+	}
+	
+	.bottomcenter{
+		text-align:center;
+		vertical-align: bottom;
+	}
+
+	.bottomright{
+		text-align:right;
+		vertical-align: bottom;
+	}
+
+/* *********************************************************
+   These are the styles used in the Contact page
+   ********************************************************* */
+
+
+
+/* *********************************************************
+   These are the styles used in the Honesty page
+   ********************************************************* */
+
