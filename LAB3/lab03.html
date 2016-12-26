@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>INT222</title>
+	<link rel = "stylesheet" href="lab03.css" type="text/css" media="screen" />
+   	
+ 
+   <script>
+      var  e1="", e2="", e3="", e4="", e5="", e6="", e7="", e8="", e9="";
+	e1 = prompt("Enter your name please:");  
+	e2 = prompt(capital(e1) + " please enter an integer between 1 - 9");
+	e3 = prompt("Enter 5 numbers please, separated by commas:");     
+	e4 = prompt("Enter 3 colors separated by commas:");              
+	e6 = e3.split(",");
+	e7 = e4.split(",");
+	
+	document.write("<table>");
+        document.write(" <caption>The number in e2 is " + e2 + "</caption>");
+	document.write("<tr>");
+	document.write("<th colspan = 5> Times Table for the number " + e2 + "</th>");
+	document.write("</tr>");
+        for (var ident = 0 ; ident <= 12 ; ident++) {
+	document.write("<tr>");   
+           document.write(" <td> " + e2 + "</td>");
+           document.write(" <td> * </td> ");
+	   document.write(" <td>" + ident + "</td>");
+	   document.write(" <td> = </td>");
+	   document.write(" <td>" + e2*ident + "</td>");			 
+        document.write(" </tr>");
+        }
+        document.write("</table>");	
+	
+	e8 = 0;
+	
+	for (var i = 0; i < 5; i++){
+		 e8 += eval(e6[i]);
+	} 
+
+	alert("Your total is: " + e8);
+
+	
+	for (var x = 0; x < 3; x++){
+		e9 += (e7[x] + "\n");
+	}
+	
+	alert(e9);
+
+
+	function capital(e1) {
+        
+	         return e1.charAt(0).toUpperCase() + e1.slice(1);
+       }
+
+  </script>
+ </head>
+ <body>
+ </body>
+</html>
