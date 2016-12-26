@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Audio</title>
+    <link rel="stylesheet" href="css/normalize.css"  type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/sitecss.css" type="text/css" media="screen" />
+  </head>
+  <body>
+
+  <div class="topPart">
+    <a href = "https://zenit.senecac.on.ca/~int222_161a17"><p class="type1">My Zenit Acccount</p></a> 
+    <a href = "index.html"><p class="type1">Home</p></a>	
+    <a href = "gallery.html"><p class="type1">Photo Gallery</p></a>
+    <a href = "video.html"><p class="type1">Video</p></a>
+    <a href = "audio.html"><p class="type1">Audio</p></a>
+    <a href = "html5.html"><p class="type1">HTML5</p></a>
+    <a href = "tables.html"><p class="type1">Tables with CSS</p></a>
+    <a href = "guestbook/index.html"><p class="type1">Guest Book</p></a>
+    <a href = "css/sitecss.css"><p class="type1">CSS Used</p></a>
+    <a href = "extra/index.html"><p class="type1">Extra</p></a>   				       
+   </div>
+
+   <div class="mainPart">
+      <div class="leftPart">
+	<div class="innerLeft">
+	<p class="type3">&nbsp; <img alt="audio" class="logo"  src="images/audio.png"> </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+       <p class="type4"><span class="type5">Audio Implementation in HTML5</span> <br />
+  This is an Audio Implementation in HTML5, as you can see it's a very simple play bar that plays MP3 or an OGG type files. There are numerous types of sound files your web page can use, but MP3 and OGG are most popular. If the client can't play a certain 
+version 
+of the audio file, HTML5 will use any alternative version of the sound file that the developer identified in his or her code. </p>      
+       <p class="type4"><span class="type5">Immediate Music - With Great Power</span><br />
+   			
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<audio controls="controls">
+     			<source src="misc/classic.mp3" type="audio/mpeg" />
+     			<source src="misc/classic.ogg" type="audio/ogg" />
+     			Your browser does not support the audio tag used.
+			<script>
+                        var audio = document.getElementsByTagName('audio')[0];
+                        </script>
+   			</audio>
+			<script>
+                   	var audio = document.getElementsByTagName('audio')[0];
+                	</script>  
+                    </p>
+	
+
+      </div>
+	</div>
+	
+      <div class="rightPart">
+	<div class="innerRight">
+        <br />
+	<span class="type5">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Audio Control Options</span>
+	<br />
+	<p class="type7"> 
+		<a href="#" class="button" onclick="audio.play();">Play</a><br />
+                <a href="#" class="button" onclick="audio.pause();">Pause</a><br />
+                <a href="#" class="button" onclick="audio.volume=1;">Volume on</a>
+		<a href="#" class="button" onclick="audio.volume=0;">Volume off</a>
+		<a href="#" class="button" onclick="audio.volume+=0.1;">Increase Volume</a>
+		<a href="#" class="button" onclick="audio.volume-=0.1;">Decrease Volume</a>
+			 </p>
+	<br />
+        <hr class="type1">
+  	
+	<p class="type2">Social Media Links</p> 
+	<img class="socialmedia" src="images/social-media.png" alt="social-media" usemap="#socialmap" />
+	<map name="socialmap">
+  	<area shape="rect" coords="7,3,24,23"    alt="facebook"   href="https://www.facebook.com/oleg.mitrakhovich">
+  	<area shape="rect" coords="172,5,189,24" alt="instagram"  href="http://www.instagram.com/olegalegovich">
+  	<area shape="rect" coords="144,5,162,24" alt="linkedIN"   href="https://ca.linkedin.com/in/oleg-mitrakhovich-472b76a7">
+	<area shape="rect" coords="172,32,189,51" alt="blog"      href="http://www.oleginthesix.blogspot.ca">
+	<area shape="rect" coords="226,5,243,24" alt="youtube"    href="https://www.youtube.com/channel/UCNcs4VVQZy1l1bvMw79KZYg">
+	</map>
+	</div>
+      </div>
+    </div>
+
+
+
+
+    <div class="bottomPart">
+	<script>
+          var dt=new Date(document.lastModified);   // Get document last modified date
+          document.write('This page was last updated on '+dt.toLocaleString()) 
+        </script>
+	
+    </div>	
+
+
+</body>
+</html>
+
